@@ -158,7 +158,7 @@ function Marquee(props) {
       delayBeforeStart: 0,
       direction: 'left'
     });
-  });
+  }, []);
 
   return (
     <div ref={el}>
